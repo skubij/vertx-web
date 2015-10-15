@@ -1,6 +1,5 @@
 FROM vertx/vertx3
 
-#                                                       (1)
 ENV VERTICLE_NAME io.skubij.vertx.Myapp
 ENV VERTICLE_FILE target/skubij-verticle-1.0-SNAPSHOT.jar
 
